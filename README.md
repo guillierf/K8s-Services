@@ -6,7 +6,9 @@ https://www.youtube.com/watch?v=NrzrpyMLWes
 ## Narrative for this demo
 1. BUILD: build image locally on your laptop: docker build . -t <DOCKER_HUB_USER>/color  (then push the image to registry)
 
-2. DEPLOY: run app on K8s cluster: kubectl create -f
+2. DEPLOY: run app locally on your laptop: docker run 
+
+3. DEPLOY: run app on K8s cluster: kubectl create -f
 
 
 
