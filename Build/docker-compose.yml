@@ -1,0 +1,7 @@
+color:
+  image: guillierf/color
+  container_name: color
+  environment:
+    COLOR: red
+  ports:
+  - "8080:8080"
