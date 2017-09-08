@@ -14,7 +14,7 @@ https://www.youtube.com/watch?v=NrzrpyMLWes
 
 ## Build a Docker image from existing JAvaScript source code and push it to Docker Hub. Replace DOCKER_HUB_USER with your Docker Hub username.
 ```
-cd Build
+cd Build-Docker
 docker build . -t <DOCKER_HUB_USER>/color
 docker login
 docker push <DOCKER_HUB_USER>/color
@@ -32,7 +32,7 @@ curl localhost:8080
 
 ## Deploy the app to Kubernetes
 ```
-cd ../Deploy
+cd ../Deploy-Kubernetes
 kubectl create -f color-pod.yml
 kubectl create -f color-svc.yml
 ```
