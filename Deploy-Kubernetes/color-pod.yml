@@ -6,7 +6,7 @@ metadata:
     color: red
 spec:
   containers:
-    - image: janakiramm/color
+    - image: guillierf/color
       name: red
       env:
         - name: "COLOR"
@@ -22,7 +22,7 @@ metadata:
     color: green
 spec:
   containers:
-    - image: janakiramm/color
+    - image: guillierf/color
       name: green
       env:
         - name: "COLOR"
@@ -38,7 +38,7 @@ metadata:
     color: blue
 spec:
   containers:
-    - image: janakiramm/color
+    - image: guillierf/color
       name: blue
       env:
         - name: "COLOR"
